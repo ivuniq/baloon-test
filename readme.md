@@ -1,4 +1,4 @@
-##Setup:
+##Production:
 
     $ git clone git@github.com:ivuniq/baloon-test.git
     $ cd baloon-test
