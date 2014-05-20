@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Metric';
+    src: url("/assets/MetricWeb-Light.woff") format("woff"),url("MetricWeb-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+body {
+}
+
+input[type="search"] {
+    font-family: Metric, sans-serif;
+    border: 2px solid #D3D3D3;
+    border-radius: 4px;
+    font-size: 2em;
+    margin: 0 3%;
+}
+
+.panel {
+    border: 1px solid lightgrey;
+    white-space: nowrap;
+    height: 180px; 
+    width: 94%; 
+    overflow-x: scroll;
+    overflow-y: hidden;    
+    margin: 3%;
+}
+
+.book-cover {
+    cursor: pointer; 
+    cursor: hand; 
+    display: inline-block;
+    width: 95px;
+    height: 120px;
+    overflow: hidden;
+    margin: 15px;
+    box-shadow: 1px 1px 1px #999;
+}
